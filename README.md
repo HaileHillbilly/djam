@@ -1,0 +1,4 @@
+djam
+====
+
+Django Amharic Translation
