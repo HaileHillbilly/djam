@@ -1,0 +1,1261 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Hailemelekot Negussie <hailenet@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Django People\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-10 08:03+0000\n"
+"PO-Revision-Date: 2013-06-17 13:49+0000\n"
+"Last-Translator: HaileHillbilly <hailenet@gmail.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/projects/p/django/language/am/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: am\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#revision for account = አካውንት
+
+#: default_settings.py:40
+msgid "English"
+msgstr "እንግሊዝኛ"
+
+#: django_openidauth/models.py:8 djangopeople/models.py:123
+msgid "User"
+msgstr "ተጠቃሚ"
+
+#: django_openidauth/models.py:9
+#: django_openidconsumer/templates/openid_failure.html:27
+#: django_openidconsumer/templates/openid_signin.html:25
+#: djangopeople/templates/login.html:75
+msgid "OpenID"
+msgstr "ኦፕንአይዲ"
+
+#: django_openidauth/models.py:10
+msgid "Creation date"
+msgstr "የተፈጠረበት ቀን"
+
+#: django_openidauth/views.py:69 django_openidauth/views.py:88
+#, python-format
+msgid "%s has been associated with your account"
+msgstr "%s ከአካውንትዎ ጋራ ተገናኝቷል"
+
+#: django_openidauth/views.py:74 django_openidauth/views.py:93
+#, python-format
+msgid ""
+"%s could not be associated with your account, as it is already associated "
+"with a different account"
+msgstr ""
+"ከአካውንትዎ ጋራ አልተገናኘም የዚህ ምክንያቱ አካውንትዎ ከዚህ በፊት ከሌላ"
+"አካውንት ጋራ ሰለተገናኘ ነው"
+
+#: django_openidauth/views.py:105
+msgid "You need to set a password if you want to remove all of your OpenIDs"
+msgstr "ሁሉንም ኦፕንአይዲዎችዎን ለማጥፋት አዲስ የይለፍቃል(ፓስወርድ) መሙላት አለብዎት"
+
+#: django_openidauth/views.py:111
+#, python-format
+msgid "%s has been removed from your account"
+msgstr "%s ከአካውንትዎ ተወግዷል"
+
+#: django_openidauth/templates/openid_associations.html:2
+#: django_openidauth/templates/openid_associations.html:19
+msgid "OpenID associations"
+msgstr "የኦፕንአይዲ ግንኙነቶች"
+
+#: django_openidauth/templates/openid_associations.html:32
+msgid "Your account is currently associated with the following OpenID:"
+msgid_plural ""
+"Your account is currently associated with the following OpenIDs:"
+msgstr[0] "አሁን አካውንትዎ ከሚከተለው ኦፕንአይዲ ጋራ ተገናኝቷል:"
+msgstr[1] "አሁን አካውንትዎ ከሚከተሉት ኦፕንአይዲዎች ጋራ ተገናኝቷል:"
+
+#: django_openidauth/templates/openid_associations.html:35
+msgid "Remove association"
+msgstr "ግንኙነት አጥፋ"
+
+#: django_openidauth/templates/openid_associations.html:41
+msgid ""
+"You are currently logged in with the following OpenID. Click \"associate\" "
+"to allow it to be used to sign in to your account."
+msgid_plural ""
+"You are currently logged with the following OpenIDs. Click \"associate\" to "
+"allow an OpenID to be used to sign in to your account."
+msgstr[0] ""
+"አሁን በሚከተለው ኦፕንአይዲ ገብተዋል:: ይህ ኦፕንአይዲ አካውንትዎን ከፍቶ እንዲገባ " 
+"ለመፍቀድ \"associate\" ላይ ክሊክ ያድርጉ::"
+msgstr[1] ""
+"አሁን በሚከተሉት ኦፕንአይዲዎች ገብተዋል:: ከነዚህ ኦፕንአይዲዎች አንዱ አካውንትዎን ከፍቶ እንዲገባ "
+"ለመፍቀድ \"associate\" ላይ ክሊክ ያድርጉ::"
+
+#: django_openidauth/templates/openid_associations.html:44
+msgid "Associate"
+msgstr "አገናኝ"
+
+#: django_openidauth/templates/openid_associations.html:50
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr "አዲስ ኦፕንአይዲ ከአካውንትዎ ጋራ ለማገናኘት እዚህ በኦፕንአይዲው ከፍተው ይግቡ:"
+
+#: django_openidauth/templates/openid_associations.html:55
+msgid "Authenticate and associate with this account"
+msgstr "ከዚህ አካውንት ጋራ አረጋግጡና ያገናኙ"
+
+#: django_openidconsumer/views.py:89
+msgid "i-names are not supported"
+msgstr "አይ-ስሞች አይደገፉም"
+
+#: django_openidconsumer/views.py:95
+msgid "The OpenID was invalid"
+msgstr "ኦፕንአይዲው አያገለግልም ነበር"
+
+#: django_openidconsumer/views.py:121
+msgid "The request was cancelled"
+msgstr "የተጠየቀው ተሰርዟል"
+
+#: django_openidconsumer/views.py:125
+msgid "Setup needed"
+msgstr "ሴታፕ ያስፈልጋል"
+
+#: django_openidconsumer/templates/openid_failure.html:3
+msgid "Open ID failed, Sign in with your OpenID"
+msgstr "በኦፕንአይዲ ለመግባት ያደረጉት ሙከራ አልተሳካም"
+
+#: django_openidconsumer/templates/openid_failure.html:19
+#: django_openidconsumer/templates/openid_signin.html:3
+#: django_openidconsumer/templates/openid_signin.html:19
+msgid "Sign in with your OpenID"
+msgstr "በኦፕንአይዲ ግባ"
+
+#: django_openidconsumer/templates/openid_failure.html:23
+msgid "OpenID failed"
+msgstr "ኦፕንአይዲ አልሰራም"
+
+#: django_openidconsumer/templates/openid_failure.html:31
+#: django_openidconsumer/templates/openid_signin.html:29
+msgid "Sign in"
+msgstr "ግባ"
+
+#: djangopeople/constants.py:28
+msgid "#django IRC"
+msgstr "#ጃንጎ አይ.አር.ሲ"
+
+#: djangopeople/forms.py:49
+msgid "Drag and zoom the map until the crosshair matches your location"
+msgstr "ክሮስሄሩ ከቦታዎት ጋራ እስከሚመሳሰል ድረስ ካርታውን ድራግና ዙም ያድርጉ"
+
+#: djangopeople/forms.py:112 djangopeople/templates/base.html:41
+msgid "Username"
+msgstr "መለያስም"
+
+#: djangopeople/forms.py:114 djangopeople/forms.py:350
+msgid "First name"
+msgstr "የእርስዎ ስም"
+
+#: djangopeople/forms.py:115 djangopeople/forms.py:351
+msgid "Last name"
+msgstr "የአባት ስም"
+
+#: djangopeople/forms.py:116 djangopeople/forms.py:352
+msgid "E-mail"
+msgstr "ኢ-ሜል"
+
+#: djangopeople/forms.py:117 djangopeople/forms.py:540
+#: djangopeople/templates/base.html:41
+msgid "Password"
+msgstr "የይለፍቃል(ፓስወርድ)"
+
+#: djangopeople/forms.py:119
+msgid "Password (again)"
+msgstr "የይለፍቃል(ፓስወርድ) (ድጋሜ)"
+
+#: djangopeople/forms.py:123 djangopeople/models.py:124
+msgid "Bio"
+msgstr "ግለ ታሪክ"
+
+#: djangopeople/forms.py:125 djangopeople/forms.py:353
+#: djangopeople/templates/edit_finding.html:34
+msgid "Blog URL"
+msgstr "የጦማር ድህረ-ገጽ አድራሻ"
+
+#: djangopeople/forms.py:127 djangopeople/forms.py:267
+#: djangopeople/models.py:74 djangopeople/models.py:88
+#: djangopeople/models.py:127 djangopeople/models.py:252
+#: djangopeople/templates/edit_location.html:44
+msgid "Country"
+msgstr "ሃገር"
+
+#: djangopeople/forms.py:130 djangopeople/forms.py:271
+#: djangopeople/models.py:132
+msgid "Location"
+msgstr "ቦታ"
+
+#: djangopeople/forms.py:132 djangopeople/forms.py:268
+#: djangopeople/models.py:107 djangopeople/models.py:128
+#: djangopeople/templates/edit_location.html:59
+msgid "Region"
+msgstr "ክልል"
+
+#: djangopeople/forms.py:135 djangopeople/forms.py:355
+#: djangopeople/templates/edit_finding.html:71
+msgid "Search visibility"
+msgstr "በሚታይ ሁኔታ ፈልግ"
+
+#: djangopeople/forms.py:143 djangopeople/forms.py:363
+#: djangopeople/templates/edit_finding.html:76
+msgid "E-mail privacy"
+msgstr "ኢ-ሜል"
+
+#: djangopeople/forms.py:151 djangopeople/forms.py:371
+#: djangopeople/templates/edit_finding.html:81
+msgid "IM privacy"
+msgstr "አይ.ኤም ፕራይቬሲ"
+
+#: djangopeople/forms.py:158 djangopeople/forms.py:378
+#: djangopeople/templates/edit_finding.html:86
+msgid "IRC tracking"
+msgstr "አይ.አር.ሲ ትራኪንግ"
+
+#: djangopeople/forms.py:166 djangopeople/forms.py:386
+#: djangopeople/templates/edit_finding.html:39
+msgid "Looking for work?"
+msgstr "ስራ ይፈልጋሉ?"
+
+#: djangopeople/forms.py:174
+msgid "Your skills"
+msgstr "ክህሎቶችህ"
+
+#: djangopeople/forms.py:182
+msgid "Password is required"
+msgstr "የይለፍቃል(ፓስወርድ) ያስፈልጋል"
+
+#: djangopeople/forms.py:189
+msgid "Passwords must match"
+msgstr "የይለፍቃል(ፓስወርድ) አንድ መሆን አለባቸው"
+
+#: djangopeople/forms.py:193
+msgid "That username is unavailable"
+msgstr "ያኛው መለያስም አልተገኘም"
+
+#: djangopeople/forms.py:217 djangopeople/forms.py:399
+msgid "That e-mail is already in use"
+msgstr "ያኛው ኢ-ሜል ጥቅም ላይ ውሏል"
+
+#: djangopeople/forms.py:230 djangopeople/forms.py:300
+msgid "The region you selected does not match the country"
+msgstr "የመረጡት ክልል ከሃገሩ ጋራ አይዛመድም"
+
+#: djangopeople/forms.py:238
+msgid "Change skills"
+msgstr "ክህሎቶችን ቀይር"
+
+#: djangopeople/forms.py:286
+msgid "The ISO code of the country you selected is invalid."
+msgstr "የመረጡት ሃገር አይ.ኤስ.ኦ ኮድ አይሰራም::"
+
+#: djangopeople/forms.py:439
+#, python-format
+msgid "URL %d"
+msgstr "ድህረ-ገጽ አድራሻ %d"
+
+#: djangopeople/forms.py:442
+#, python-format
+msgid "Title %d"
+msgstr "አርዕስት %d"
+
+#: djangopeople/forms.py:472
+msgid "You need to provide a URL"
+msgstr "ድህረ-ገጽ አድራሻ ማስገባት ያስፈልጋል"
+
+#: djangopeople/forms.py:478
+msgid "Current Password"
+msgstr "አሁን የሚገለገሉበት የይለፍቃል(ፓስወርድ)"
+
+#: djangopeople/forms.py:480
+msgid "New Password"
+msgstr "አዲስ የይለፍቃል(ፓስወርድ)"
+
+#: djangopeople/forms.py:481
+msgid "New Password (again)"
+msgstr "አዲስ የይለፍቃል(ፓስወርድ) (ድጋሜ)"
+
+#: djangopeople/forms.py:493
+msgid "Please submit your current password."
+msgstr "አሁን የሚገለገሉበትን የይለፍቃል(ፓስወርድ) ያስገቡ::"
+
+#: djangopeople/forms.py:504
+msgid "The passwords did not match."
+msgstr "የይለፍቃሎቹ(ፓስወርድ) አንድዓይነት አይደሉም::"
+
+#: djangopeople/forms.py:545
+msgid "Your password was invalid"
+msgstr "የይለፍቃልዎ(ፓስወርድ) አያገለግልም ነበር"
+
+#: djangopeople/groupedselect.py:81
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+"ተገቢ ምርጫ ይምረጡ:: ያኛው ምርጫ ከሚገኙት ምርጫዎች አንዱ አይደለም::"
+
+#: djangopeople/models.py:40 djangopeople/models.py:87
+msgid "Name"
+msgstr "ስም"
+
+#: djangopeople/models.py:41
+msgid "ISO code"
+msgstr "አይ.ኤስ.ኦ ኮድ"
+
+#: djangopeople/models.py:42
+msgid "ISO numeric code"
+msgstr "አይ.ኤስ.ኦ የቁጥር ኮድ"
+
+#: djangopeople/models.py:44
+msgid "ISO alpha-3"
+msgstr "አይ.ኤስ.ኦ አልፋ-3"
+
+#: djangopeople/models.py:45
+msgid "FIPS code"
+msgstr "ኤፍ.አይ.ፒ.ኤስ ኮድ"
+
+#: djangopeople/models.py:46
+msgid "Continent"
+msgstr "አሃጉር"
+
+#: djangopeople/models.py:48
+msgid "Capital"
+msgstr "ዋና ከተማ"
+
+#: djangopeople/models.py:49
+msgid "Area in square kilometers"
+msgstr "ስፋት በስኩዌር ኪሎሜትሮች"
+
+#: djangopeople/models.py:50
+msgid "Population"
+msgstr "የህዝብ ብዛት"
+
+#: djangopeople/models.py:51
+msgid "Currency code"
+msgstr "የመገበያያ ኮድ"
+
+#: djangopeople/models.py:53
+msgid "Languages"
+msgstr "ቋንቋ"
+
+#: djangopeople/models.py:54
+msgid "Geonames ID"
+msgstr "የጂኦኔሞች መታወቂያ"
+
+#: djangopeople/models.py:63 djangopeople/models.py:96
+msgid "Number of people"
+msgstr "የሰዎች ቁጥር"
+
+#: djangopeople/models.py:75
+msgid "Countries"
+msgstr "ሃገሮች"
+
+#: djangopeople/models.py:86
+msgid "Code"
+msgstr "ኮድ"
+
+#: djangopeople/models.py:89
+msgid "Flag"
+msgstr "ባንዲራ"
+
+#: djangopeople/models.py:108 djangopeople/templates/country.html:86
+msgid "Regions"
+msgstr "ክልሎች"
+
+#: djangopeople/models.py:130 djangopeople/templates/edit_location.html:49
+msgid "Latitude"
+msgstr "ላቲቲውድ"
+
+#: djangopeople/models.py:131 djangopeople/templates/edit_location.html:54
+msgid "Longitude"
+msgstr "ሎንግቲውድ"
+
+#: djangopeople/models.py:138
+msgid "Profile views"
+msgstr "ፕሮፋይል ቪዎች"
+
+#: djangopeople/models.py:145
+msgid "OpenID server"
+msgstr "ኦፕንአይዲ ሰርቨር"
+
+#: djangopeople/models.py:147
+msgid "OpenID delegate"
+msgstr "ኦፕንአይዲ ተወካይ"
+
+#: djangopeople/models.py:151
+msgid "Last active on IRC"
+msgstr "በ አይ.አር.ሲ በመጨረሻ ንቁ የሆነ"
+
+#: djangopeople/models.py:159
+msgid "<none>"
+msgstr "<ምንም>"
+
+#: djangopeople/models.py:220
+msgid "Django person"
+msgstr "የጃንጎ ሰው"
+
+#: djangopeople/models.py:221
+msgid "Django people"
+msgstr "የጃንጎ ሰዎች"
+
+#: djangopeople/models.py:235 djangopeople/models.py:250
+msgid "Title"
+msgstr "አርዕስት"
+
+#: djangopeople/models.py:236 djangopeople/models.py:251
+msgid "URL"
+msgstr "ድህረ-ገጽ አድራሻ"
+
+#: djangopeople/models.py:238
+msgid "Contributor"
+msgstr "አስተዋጽኦ አድራጊ"
+
+#: djangopeople/models.py:244
+msgid "Portfolio site"
+msgstr "ፓርትፎልዮ ድህረ-ገፅ"
+
+#: djangopeople/models.py:245
+msgid "Portfolio sites"
+msgstr "ፓርትፎልዮ ድህረ ገፆች"
+
+#: djangopeople/models.py:258
+msgid "Country site"
+msgstr "የሃገር ገጽ"
+
+#: djangopeople/models.py:259
+msgid "Country sites"
+msgstr "የሃገር ገጽዎች"
+
+#: djangopeople/views.py:553
+#, python-format
+msgid "No Tag found matching \"%s\"."
+msgstr "\"%s\"ን የሚመሳሰል መለያ ምልክት (ታግ) የለም::"
+
+#: djangopeople/templates/404.html:3 djangopeople/templates/404.html.py:9
+msgid "404 error"
+msgstr "የ 404 ችግር"
+
+#: djangopeople/templates/404.html:13
+msgid "Page not found."
+msgstr "ድህረ-ገጹ የለም::"
+
+#: djangopeople/templates/500.html:3 djangopeople/templates/500.html.py:9
+msgid "500 error"
+msgstr "የ 500 ችግር"
+
+#: djangopeople/templates/500.html:13
+msgid ""
+"Internal server error. This has been reported to the site administrator."
+msgstr ""
+"የውስጥ ሰርቨር ችግር:: ለድህረ-ገጽ አስተዳዳሪው ሪፖርት ተደርጓል::"
+
+#: djangopeople/templates/about.html:4
+msgid "About"
+msgstr "ስለ"
+
+#: djangopeople/templates/about.html:9
+msgid "About Django People"
+msgstr "ስለ ጃንጎ ሰዎች"
+
+#: djangopeople/templates/about.html:14
+#, python-format
+msgid ""
+"Django People lists %(count)s <a "
+"href=\"https://www.djangoproject.com/\">Django</a> developers from around "
+"the world, in %(countries)s different countries. The aim of the site is to "
+"help Django developers find like-minded souls near them, and hopefully kick-"
+"start some local meet-ups and user groups."
+msgstr ""
+"ጃንጎ ሰዎች ከአለም ዙሪያና በ%(countries)s የተለያዩ ሃገሮች ውስጥ ያሉ %(count)s "
+"<a href=\"https://www.djangoproject.com/\">ጃንጎ</a> ዴቨሎፐሮችን ይዘረዝራል:: 
+"የድህረ ገፁ አላማ የጃንጎ ዴቨሎፐሮች በአካባቢያቸው ያለ አቻቸውን እንዲያገኙ ለማስቻል ሲሆን ከሆነም "
+"መሰባሰብና ግሩፕ ፈጠራ ለማስጀመር ይጠቅማል::"
+
+#: djangopeople/templates/about.html:16
+msgid ""
+"The site was originally built and open-sourced by <a href=\"/simon/\">Simon "
+"Willison</a> and <a href=\"/natbat/\">Natalie Downe</a>. The code is <a "
+"href=\"https://github.com/brutasse/djangopeople\">available on github</a>, "
+"you can post feedback and bug reports on the repository's <a "
+"href=\"https://github.com/brutasse/djangopeople/issues\">issues page</a>."
+msgstr ""
+"ድህረ ገፁ በመጀመሪያ የተሰራውና ኦፕን ሶርስ የሆነው በ<a href=\"/simon/\">ሲሞን ዊሊሰን</a> እና "
+"<a href=\"/natbat/\">ናታሊ ዳውን</a> ነው:: ኮዱ "
+"<a href=\"https://github.com/brutasse/djangopeople\">በgithub ይገኛል</a> "
+"እንዲሁም ፊድባክ ለመስጠትና ችግር ለማመልከት በመረጃ ቋት ውስጥ በሚገኘው <a "
+"href=\"https://github.com/brutasse/djangopeople/issues\">የችግሮች ገፅ</a> "
+"መጠቀም ይቻላል::"
+
+#: djangopeople/templates/about.html:18
+msgid "Colophon"
+msgstr "የአሳታሚ አርማ"
+
+#: djangopeople/templates/about.html:20
+msgid ""
+"Country data and location lookups come from <a "
+"href=\"http://www.geonames.org/\">GeoNames</a>, while the maps themselves "
+"are powered by the <a href=\"https://developers.google.com/maps/\">Google "
+"Maps API</a>. Country flags and icons are by <a "
+"href=\"http://famfamfam.com/lab/icons/\">Mark James</a>; US state flags come"
+" <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" "
+"title=\"Flags of the U.S. states\">from Wikipedia</a>. Profile pictures come"
+" from <a href=\"http://en.gravatar.com/\">Gravatar</a>."
+msgstr ""
+"ስለሃገር መረጃና ቦታ አፈላላጊዎቹ ከ<a href=\"http://www.geonames.org/\">ጂኦኔምስ</a> ሲመጡ "
+"ካርታዎቹ ደግሞ <a href=\"https://developers.google.com/maps/\">የጉግል ማፕስ ኤ.ፒ.አይ</a> ናቸው::"
+"የሃገር ባንዲራዎችና አይኮኖች በ<a href=\"http://famfamfam.com/lab/icons/\">ማርክ ጄምስ</a> ሲሆኑ "
+"የአሜሪካ ስቴቶች ባንዲራ ደግሞ <a href=\"http://en.wikipedia.org/wiki/Flags_of_the_U.S._states\" "
+"title=\"Flags of the U.S. states\">ከዊኪፒዲያ</a> የመጡ ናቸው:: የፕሮፋይል ስዕሎች ደግሞ ከ<a "
+"href=\"http://en.gravatar.com/\">ግራቫታር</a> የመጡ ናቸው::"
+
+#: djangopeople/templates/about.html:22
+#, python-format
+msgid ""
+"The site uses <a href=\"http://code.google.com/p/django-tagging/\">django-"
+"tagging</a> by <a href=\"/insin/\">Jonathan Buchanan</a> for the <a "
+"href=\"/skills/\">skills feature</a>. <a "
+"href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django "
+"People: OpenID and microformats\">OpenID support</a> (used by "
+"%(openid_users)s people) depends on <a href=\"http://openidenabled.com"
+"/python-openid/\">python-openid</a> (version 2.2.5)  and <a "
+"href=\"http://code.google.com/p/django-openid/\">django-openid</a>."
+msgstr ""
+"ድህረ ገፁ ለ<a href=\"/skills/\">ክህሎቶች መለያ ፀባይ</a> የሚሆን በ<a href=\"/insin/\"> "
+"ጆናታን ቡካናን</a> የተዘጋጀ <a href=\"http://code.google.com/p/django-tagging/\"> "
+"ጃንጎ-ታጊንግ</a> ይጠቀማል:: (%(openid_users)s ሰዎች የሚጠቀሙት) <a "
+"href=\"http://simonwillison.net/2008/Jan/24/upgrade/\" title=\"Django "
+"People: OpenID and microformats\">ኦፕንአይዲ ድጋፍ</a> በ<a href=\"http://openidenabled.com"
+"/python-openid/\">ፓይተን-ኦፕንአይዲ</a> (ቨርዥን 2.2.5) እና በ<a "
+"href=\"http://code.google.com/p/django-openid/\">ጃንጎ-ኦፕንአይዲ</a> ይመሰረታል::"
+
+#: djangopeople/templates/about.html:24
+msgid ""
+"Deployment is <a href=\"http://gunicorn.org\">gunicorn</a>, hosted on <a "
+"href=\"http://www.heroku.com/\">Heroku</a>."
+msgstr ""
+"ስምሪቱ <a href=\"http://gunicorn.org\">ጉኒኮርን</a> ሲሆን የሚስተናገደው ደግሞ "
+"በ<a href=\"http://www.heroku.com/\">ሄሮኩ</a> ነው::"
+
+#: djangopeople/templates/about.html:26
+msgid "A Django joint."
+msgstr "የጃንጎ ጆይንት"
+
+#: djangopeople/templates/base.html:24
+msgid "home"
+msgstr "ሆም"
+
+#: djangopeople/templates/base.html:25
+msgid "about"
+msgstr "ስለ"
+
+#: djangopeople/templates/base.html:26
+msgid "search"
+msgstr "ፈልግ"
+
+#: djangopeople/templates/base.html:30
+msgid "sign up as a django person"
+msgstr "የጃንጎ ሰው ለመሆን ተመዝገብ"
+
+#: djangopeople/templates/base.html:33
+#, python-format
+msgid "You are logged in as <strong>%(user)s</strong>"
+msgstr "የገቡት <strong>%(user)s</strong> በሚለው መለያ ነው::"
+
+#: djangopeople/templates/base.html:34
+msgid "your profile"
+msgstr "ፕሮፋይል"
+
+#: djangopeople/templates/base.html:35
+msgid "your account"
+msgstr "አካውንት"
+
+#: djangopeople/templates/base.html:36
+msgid "log out"
+msgstr "ውጣ"
+
+#: djangopeople/templates/base.html:41 djangopeople/templates/login.html:4
+#: djangopeople/templates/login.html:43 djangopeople/templates/login.html:65
+msgid "Log in"
+msgstr "ግባ"
+
+#: djangopeople/templates/base.html:43
+#, python-format
+msgid "Or <a href=\"%(openid_url)s\">log in with <strong>OpenID</strong>"
+msgstr "ወይም <a href=\"%(openid_url)s\">በ<strong>ኦፕንአይዲ</strong> ግባ"
+
+#: djangopeople/templates/base.html:49
+msgid "Django People"
+msgstr "የጃንጎ ሰዎች"
+
+#: djangopeople/templates/base.html:50
+msgid ""
+"Discover users of the <a href=\"https://www.djangoproject.com/\">Django Web "
+"framework</a> near you"
+msgstr ""
+"አቅራቢያዎ ያሉ <a href=\"https://www.djangoproject.com/\">የጃንጎ ዌብ ፍሬምወርክ</a> ተጠቃሚዎችን ይገናጙ "
+
+#: djangopeople/templates/base.html:61
+msgid "Hosted on <span class=\"heroku\">Heroku</span>"
+msgstr "<span class=\"heroku\">ሄሮኩ</span>ላይ እየሰራ የሚገኝ"
+
+#: djangopeople/templates/country.html:36
+#: djangopeople/templates/country.html:38
+#, python-format
+msgid "%(counter)s Django person"
+msgid_plural "%(counter)s Django people"
+msgstr[0] "%(counter)s የጃንጎ ሰው"
+msgstr[1] "%(counter)s የጃንጎ ሰዎች"
+
+#: djangopeople/templates/country.html:53
+#, python-format
+msgid "Django community sites in %(country)s"
+msgstr "የጃንጎ ማህበራዊ ድህረ-ገጽ በ %(country)s"
+
+#: djangopeople/templates/country.html:64
+#, python-format
+msgid "Page %(num)s of %(total)s"
+msgstr "ገጽ %(num)s ከ %(total)s"
+
+#: djangopeople/templates/country.html:90 djangopeople/templates/index.html:46
+#: djangopeople/templates/irc_active.html:8
+#: djangopeople/templates/skills.html:23
+#, python-format
+msgid "%(counter)s person"
+msgid_plural "%(counter)s people"
+msgstr[0] "%(counter)s ሰው"
+msgstr[1] "%(counter)s ሰዎች"
+
+#: djangopeople/templates/country_looking_for.html:3
+#, python-format
+msgid "People in %(country)s looking for %(looking_for)s"
+msgstr "%(country)s ያሉ ሰዎች %(looking_for)s ፍለጋ"
+
+#: djangopeople/templates/country_looking_for.html:9
+#, python-format
+msgid "%(country)s, seeking %(looking_for)s work"
+msgstr "%(country)s %(looking_for)s ስራ ማጠያየቅ"
+
+#: djangopeople/templates/country_sites.html:4
+#: djangopeople/templates/country_sites.html:10
+#, python-format
+msgid "Sites in %(country)s"
+msgstr "ገጽ በ %(country)s"
+
+#: djangopeople/templates/country_sites.html:19
+#, python-format
+msgid "<a href=\"%(url)s\">%(title)s</a> by <a href=\"%(author_url)s\">%(author)s</a>"
+msgstr "<a href=\"%(url)s\">%(title)s</a> በ <a href=\"%(author_url)s\">%(author)s</a>"
+
+#: djangopeople/templates/delete_account.html:4
+msgid ""
+"Please enter your password to confirm your ownership of this account. You "
+"account removal will be effective immediately and permanently after you "
+"submit this form."
+msgstr ""
+"እባክዎን የዚህ አካውንት ባለቤትነትዎን ለማረጋገጥ የይለፍቃልዎን(ፓስወርድዎን) ያስገቡ::"
+"ይህንን ፎርም ካስገቡ በኋላ አካውንትዎ ወዲያውና ላይመለስ ይጠፋል::"
+
+#: djangopeople/templates/delete_account.html:7
+msgid "Delete my account"
+msgstr "አካውንቴን አስወግድ"
+
+#: djangopeople/templates/delete_account.txt:1
+#, python-format
+msgid "Dear %(name)s,"
+msgstr "ውድ %(name)s, "
+
+#: djangopeople/templates/delete_account.txt:3
+#, python-format
+msgid ""
+"It seems you're willing to delete your account from %(domain)s. You can "
+"delete your account by following the instructions on the link below:"
+msgstr ""
+"አካውንትዎን ከ%(domain)s ለማስወገድ እንደወሰኑ ተገንዝበናል:: ከታች ባለው ሊንክ ላይ ያሉትን "
+"ትዕዛዞች በመከተል አካውንትዎን ያስወግዱ::"
+
+#: djangopeople/templates/delete_account.txt:7
+msgid "For security reasons, this link will stay valid for only 5 minutes."
+msgstr "ለደህንነት ሲባል ይህ ሊንክ ለአምስት ደቂቃ ብቻ ያገለግላል::"
+
+#: djangopeople/templates/delete_account_done.html:3
+msgid "Account deleted"
+msgstr "አካውንት ተወግዷል"
+
+#: djangopeople/templates/delete_account_done.html:6
+msgid "It's sad to see you go, but your account was successfully deleted."
+msgstr "በመሄድዎ እናዝናለን ግን አካውንትዎ በተሳካ ሁኔታ ተወግዷል::"
+
+#: djangopeople/templates/delete_account_next.html:4
+msgid ""
+"Check your email! An email was just sent to you, follow the link in it to "
+"finalize your account deletion."
+msgstr "ኢ፡ሜልዎን ይዩት! አሁን በላክልንዎት ኢ፡ሜል ውስጥ ያለውን ሊንክ በመከተል የአካውንትዎን ውገዳ ያጠናቁ::"
+
+#: djangopeople/templates/delete_account_request.html:3
+#: djangopeople/templates/delete_account_request.html:5
+msgid "Account deletion"
+msgstr "አካውንት ውገዳ"
+
+#: djangopeople/templates/delete_account_request.html:8
+msgid ""
+"You are about to request complete removal of your account and data from this"
+" site. This will be done using the following process:"
+msgstr ""
+"አካውንትዎንና ዳታዎን ሙሉ በሙሉ ከዚህ ድህረ ገፅ ለማጥፋት ፈቃድ ሊጠይቁ ነው::"
+"ይህንን ለማድረግ የሚከተለውን ሂደት ይጠቀሙ::"
+
+#: djangopeople/templates/delete_account_request.html:10
+msgid ""
+"When you submit the following form, you will receive an email with a private"
+" link."
+msgstr ""
+"የሚከተለውን ፎርም ሲያስገቡ የራሱ ግላዊ ሊንክ ያለው ኢ-ሜል ይረከባሉ::"
+
+#: djangopeople/templates/delete_account_request.html:11
+msgid ""
+"This link (valid for 5 minutes only) will take you to a page where you can "
+"enter your password to actually delete your account."
+msgstr ""
+"ይህ ሊንክ(ለአምስት ደቂቃ ብቻ የሚያገለግል) የይለፍቃል(ፓስወርድ) ከተው አካውንትዎን "
+"ለማስወገድ ወደሚያስችል ገፅ ይወስድዎታል::"
+
+#: djangopeople/templates/delete_account_request.html:13
+msgid "If you are ready to proceed, submit the form below."
+msgstr "ለመቀጠል ዝግጁ ከሆኑ ከታች ያለውን ፎርም ያስገቡ::"
+
+#: djangopeople/templates/delete_account_request.html:16
+msgid "Request account deletion"
+msgstr "አካውንት ውገዳ ጠይቅ"
+
+#: djangopeople/templates/delete_account_subject.txt:1
+#, python-format
+msgid "Account deletion on %(domain)s"
+msgstr "በ%(domain)s ላይ አካውንት ውገዳ"
+
+#: djangopeople/templates/edit_account.html:3
+#: djangopeople/templates/edit_account.html:11
+msgid "Account settings"
+msgstr "አካውንት ሴቲንጎች"
+
+#: djangopeople/templates/edit_account.html:16
+#: djangopeople/templates/edit_location.html:4
+#: djangopeople/templates/edit_location.html:18
+msgid "Change your location"
+msgstr "ቦታህን ቀይር"
+
+#: djangopeople/templates/edit_account.html:17
+msgid "Update your contact details"
+msgstr "የኮንታክት ዝርዝርዎን ያሻሽሉ"
+
+#: djangopeople/templates/edit_account.html:18
+msgid "Change your privacy settings"
+msgstr "ፕራይቬሲ ሴቲንጎችዎን ይቀይሩ"
+
+#: djangopeople/templates/edit_account.html:19
+msgid "Add sites to your portfolio"
+msgstr "ፓርትፎልዮ ላይ ገፆች ይጨምሩ"
+
+#: djangopeople/templates/edit_account.html:20
+#: djangopeople/templates/edit_password.html:3
+#: djangopeople/templates/edit_password.html:11
+msgid "Change your password"
+msgstr "የይለፍቃልህን (ፓስወርድ) ቀይር"
+
+#: djangopeople/templates/edit_account.html:20
+#, python-format
+msgid ""
+"You do not have a password set - <a href=\"%(password_url)s\">set one "
+"now?</a>"
+msgstr ""
+"የተመዘገበ ይለፍቃል (ፓስወርድ) የለዎትም - <a href=\"%(password_url)s\">አሁን 
+"ያስመዘግባሉ?</a> "
+
+#: djangopeople/templates/edit_account.html:21
+msgid "Delete your account"
+msgstr "እርስዎን አካውንት"
+
+#: djangopeople/templates/edit_account.html:27
+#, python-format
+msgid ""
+"You have %(counter)s OpenID associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenID</a>"
+msgid_plural ""
+"You have %(counter)s OpenIDs associated with your account. <a "
+"href=\"%(openid_url)s\">Manage your OpenIDs</a>"
+msgstr[0] ""
+"ከአካውንትዎ ጋራ የተገናኘ %(counter)s ኦፕንአይዲ አለዎት::"
+"<a href=\"%(openid_url)s\">ኦፕንአይዲዎን ያስተዳድሩ</a>"
+msgstr[1] ""
+"ከአካውንትዎ ጋራ የተገናኙ %(counter)s ኦፕንአይዲዎች አለዎት::"
+"<a href=\"%(openid_url)s\">ኦፕንአይዲዎችዎን ያስተዳድሩ</a>
+
+#: djangopeople/templates/edit_account.html:30
+#, python-format
+msgid ""
+"If you have an <a href=\"http://openid.net/\">OpenID</a>, you can <a "
+"href=\"%(openid_url)s\">associate it with your account</a>. This will allow "
+"you to log in using your OpenID instead of your password."
+msgstr ""
+"<a href=\"http://openid.net/\">ኦፕንአይዲ</a> ካለዎት ከአካውንትዎ ጋራ "
+"<a href=\"%(openid_url)s\"> ማገናኘት ይችላሉ</a>:: ይህ በይለፍቃል (ፓስወርድ) "
+"ፋንታ በኦፕንአይዲ ከፍተው እንዲገቡ ያስችልዎታል::"
+
+#: djangopeople/templates/edit_account.html:34
+msgid "Advanced: Use your profile page as an OpenID"
+msgstr "አድቫንስድ: ፕሮፋይል ገፅዎን እንደ ኦፕንአይዲ ይጠቀሙ"
+
+#: djangopeople/templates/edit_account.html:37
+msgid ""
+"If you already have an OpenID, you can configure your Django People profile "
+"page to delegate to it. This means you'll be able to use your profile page "
+"as an OpenID, without having to sign in to Django People first."
+msgstr ""
+"ቀድሞ ኦፕንአይዲ ካለዎት ጃንጎ ሰዎች ፕሮፋይል ገፅዎ ኦፕንአይዲዎን እንዲወክል ማስተካከል ይችላሉ:: ይህ ማለት " 
+"መጀመሪያ ወደ ጃንጎ ሰዎች ሳይገቡ ፕሮፋይል ገፅዎን እንደኦፕንአይዲ መጠቀም እንደሚያስችሎት ያሳያል::"
+
+#: djangopeople/templates/edit_account.html:40
+msgid ""
+"Read <a href=\"http://simonwillison.net/2006/Dec/19/openid/\">more about "
+"delegation</a> to learn how to use this form."
+msgstr ""
+"የዚህን ፎርም አጠቃቀም ለመማር <a href=\"http://simonwillison.net/2006/Dec/19/openid/\"> "
+"ሰለውከላ ተጨማሪ</a>ን ያንብቡ::"
+
+#: djangopeople/templates/edit_account.html:45
+msgid "Update OpenID delegation"
+msgstr "ኦፕንአይዲ ውከላ አሻሽል"
+
+#: djangopeople/templates/edit_bio.html:3
+#: djangopeople/templates/edit_bio.html:9
+msgid "Edit your bio"
+msgstr "የእርስዎን ግለ ታሪክ"
+
+#: djangopeople/templates/edit_bio.html:14
+msgid ""
+"No HTML allowed, but paragraph tags will be added automatically and URLs "
+"will be turned in to links."
+msgstr ""
+"ምንም HTML አይፈቀድም ግን የአንቀፅ መለያ ምልክቶች ወዲያዉኑ ይጨመራሉ እንዲሁም የድህረ፡ገጽ "
+"አድራሻዎች ወደ ሊንኮች ይቀየራሉ::"
+
+#: djangopeople/templates/edit_bio.html:18
+msgid "Update bio"
+msgstr "ግለ ታሪክ አሻሽል"
+
+#: djangopeople/templates/edit_finding.html:3
+#: djangopeople/templates/edit_finding.html:9
+msgid "Edit contact information"
+msgstr "የኮንታክት መረጃ አስተካክል"
+
+#: djangopeople/templates/edit_finding.html:15
+msgid "Contact details"
+msgstr "የኮንታክት ዝርዝሮች"
+
+#: djangopeople/templates/edit_finding.html:29
+msgid "E-mail *"
+msgstr "ኢ-ሜል *"
+
+#: djangopeople/templates/edit_finding.html:43
+msgid "Other profiles"
+msgstr "ሌሎች ፕሮፋይሎች"
+
+#: djangopeople/templates/edit_finding.html:45
+#: djangopeople/templates/signup.html:102
+msgid "Got profiles on other sites? Enter the URLs below:"
+msgstr "በሌሎች ድህረ ገፆች ፕሮፋይሎች አለዎት? ከታች ድህረ፡ገጽ አድራሻዎቹን ያስገቡ:"
+
+#: djangopeople/templates/edit_finding.html:54
+msgid "Instant messaging"
+msgstr "ፈጣን ሜሴጂንግ"
+
+#: djangopeople/templates/edit_finding.html:56
+#: djangopeople/templates/signup.html:113
+msgid "Use any instant messaging software?"
+msgstr "ማንኛውንም ፈጣን ሜሴጂንግ ሶፍትዌር ልጠቀም?"
+
+#: djangopeople/templates/edit_finding.html:66
+msgid "Privacy settings"
+msgstr "ፕራይቬሲ ሴቲንጎች"
+
+#: djangopeople/templates/edit_finding.html:68
+#: djangopeople/templates/signup.html:125
+msgid ""
+"You can set your profile page not to show up in external search engine "
+"results (such as Google or Yahoo!)"
+msgstr ""
+"ፕሮፋይል ገፅዎ ውጫዊ የፍለጋ ኤንጅኖችን (ለምሳሌ ጉግልና ያሁ!) እንዳያሳይ ማድረግ ይቻላል"
+
+#: djangopeople/templates/edit_finding.html:91
+msgid "Save changes"
+msgstr "ለውጦችን ሴቭ አድርግ"
+
+#: djangopeople/templates/edit_location.html:25
+#: djangopeople/templates/signup.html:57
+msgid ""
+"<strong>Zoom and center the map on your location</strong>. Your map location"
+" will be shared in public, so only make it as accurate as makes you "
+"comfortable."
+msgstr ""
+"<strong>ቦታዎ ላይ ካርታውን ዙምና ሴንተር ያድርጉ::</strong> የካርታ ቦታዎን ሌሎች ስለሚያዩት በተቻለ 
+"መጠን በትክክል ይስሩት::"
+
+#: djangopeople/templates/edit_location.html:38
+msgid "Location *"
+msgstr "ቦታ *"
+
+#: djangopeople/templates/edit_location.html:41
+#: djangopeople/templates/signup.html:75
+msgid ""
+"A short textual description of your location will be displayed on the site. "
+"We attempt to derive this from your position on the map, but you can "
+"customise it if you like."
+msgstr ""
+"ድህረ ገፁ ላይ ስለቦታዎ አጭር የፅሁፍ ገለፃ ይታያል:: ይህንን ለማድረግ ካርታ ላይ ያሉበትን ቦታ 
+"እንጠቀማለን ግን እርስዎም ማስተካከል ይችላሉ::"
+
+#: djangopeople/templates/edit_location.html:63
+msgid "Change location"
+msgstr "ቦታ ቀይር"
+
+#: djangopeople/templates/edit_password.html:17
+msgid "Change password"
+msgstr "የይለፍቃል(ፓስወርድ) ቀይር"
+
+#: djangopeople/templates/edit_portfolio.html:3
+#: djangopeople/templates/edit_portfolio.html:17
+msgid "Update your portfolio"
+msgstr "የእርስዎን ፓርትፎልዮ"
+
+#: djangopeople/templates/edit_portfolio.html:21
+msgid ""
+"Show off the sites and projects you've personally built (or contributed to) "
+"using Django."
+msgstr ""
+"ራስዎ የሰሩትን (አስተዋፅኦ ያደረጉበትን) ገፆችና ፕሮጀክቶችን ጃንጎን በመጠቀም ያሳዩ::"
+
+#: djangopeople/templates/edit_portfolio.html:24
+msgid "Update portfolio"
+msgstr "ፓርትፎልዮ አሻሽል"
+
+#: djangopeople/templates/edit_skills.html:3
+#: djangopeople/templates/edit_skills.html:9
+msgid "Update your skills"
+msgstr "ክህሎቶችህን አሻሽል"
+
+#: djangopeople/templates/edit_skills.html:15
+msgid "Update skills"
+msgstr "ክህሎቶችን አሻሽል"
+
+#: djangopeople/templates/form.html:3
+msgid "Please correct the errors below and submit the form again."
+msgstr "እባክዎን ከታች ያሉትን ስህተቶች ያስተካክሉና ፎርሙን ድጋሜ ያስገቡ::"
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid "Showing %(counter)s recent signups (out of %(total_people)s)"
+msgstr "የቅርብ ጊዜ ምዝገባ (out of %(total_people)s) እያሳየ %(counter)s ነው"
+
+#: djangopeople/templates/index.html:33
+#, python-format
+msgid ""
+"if you're a Django developer, why not <a href=\"%(signup_url)s\">add "
+"yourself</a> to the site?"
+msgstr ""
+"የጃንጎ ዴቨሎፐር ከሆኑ <a href=\"%(signup_url)s\">ራስዎን መጨመር</a> አይፈልጉም?"
+
+#: djangopeople/templates/index.html:50
+msgid ""
+"Looking for a Django job? check out <a "
+"href=\"http://djangogigs.com/\">Djangogigs.com</a>"
+msgstr ""
+"የጃንጎ ስራ እየፈለጉ ነው? <a href=\"http://djangogigs.com/\">Djangogigs.com</a>ን "
+"ይመልከቱ"
+
+#: djangopeople/templates/irc_active.html:4
+#: djangopeople/templates/irc_active.html:7
+msgid "Active on IRC in the past hour"
+msgstr "ያለፈው ሰዓት በ አይ.አር.ሲ ላይ ንቁ ነበር"
+
+#: djangopeople/templates/irc_active.html:8
+msgid "No one is currently active"
+msgstr "አሁን ማንም ንቁ አይደለም"
+
+#: djangopeople/templates/irc_active.html:26
+#, python-format
+msgid "<strong>%(nick)s</strong>, active %(since)s ago"
+msgstr "<strong>%(nick)s</strong>, ንቁ የሆነው %(since)s በፊት"
+
+#: djangopeople/templates/login.html:50
+msgid "Your login attempt failed."
+msgstr "ለመግባት ያደረጉት ሙከራ አልተሳካም::"
+
+#: djangopeople/templates/login.html:58
+msgid "Lost your password?"
+msgstr "የይለፍቃል(ፓስወርድ) ረሱት?"
+
+#: djangopeople/templates/login.html:69
+msgid "Or sign in with your OpenID"
+msgstr "ወይም በኦፕንአይዲ ይግቡ"
+
+#: djangopeople/templates/login.html:78
+msgid "OpenID not working?"
+msgstr "ኦፕንአይዲ እምቢ አለህ?"
+
+#: djangopeople/templates/login.html:81
+msgid "Log in with OpenID"
+msgstr "በኦፕንአይዲ ይግቡ"
+
+#: djangopeople/templates/profile.html:53
+msgid "(change)"
+msgstr "(ቀይር)"
+
+#: djangopeople/templates/profile.html:66
+msgid "(edit bio)"
+msgstr "(ግለ ታሪክህን)"
+
+#: djangopeople/templates/profile.html:66
+msgid "Create your bio"
+msgstr "የእራስዎን ግለ ታሪክ ፍጠሩ"
+
+#: djangopeople/templates/profile.html:73
+msgid "(edit skills)"
+msgstr "(ክህሎቶችህን አስተካክል)"
+
+#: djangopeople/templates/profile.html:78
+msgid "Save"
+msgstr "ሴቭ"
+
+#: djangopeople/templates/profile.html:81
+#, python-format
+msgid "Looking for <strong>%(type)s</strong> work"
+msgstr "<strong>%(type)s</strong> ስራ እየፈለጉ ነው"
+
+#: djangopeople/templates/profile.html:86
+#, python-format
+msgid "Finding %(name)s"
+msgstr "%(name)s እየተፈለገ ነው"
+
+#: djangopeople/templates/profile.html:86
+#: djangopeople/templates/profile.html:109
+msgid "(edit)"
+msgstr "(አስተካክል)"
+
+#: djangopeople/templates/profile.html:88
+msgid "email:"
+msgstr "ኢ-ሜል:"
+
+#: djangopeople/templates/profile.html:91
+msgid "blog:"
+msgstr "ጦማር:"
+
+#: djangopeople/templates/profile.html:95
+#, python-format
+msgid "(active %(since)s ago)"
+msgstr "(ንቁ የሆነው %(since)s በፊት)"
+
+#: djangopeople/templates/profile.html:109
+#, python-format
+msgid "%(name)s's Django portfolio"
+msgstr " የ %(name)s ጃንጎ ፓርትፎልዮ"
+
+#: djangopeople/templates/profile.html:110
+#, python-format
+msgid "Django projects %(name)s has contributed to"
+msgstr "%(name)s አስተዋፅኦ ያደረገባቸው የጃንጎ ፕሮጀክቶች"
+
+#: djangopeople/templates/profile.html:116
+#, python-format
+msgid "<a href=\"%(portfolio_url)s\">Add some sites</a> to your portfolio"
+msgstr "ወደ ፖርትፎሊዮ <a href=\"%(portfolio_url)s\">አንዳንድ ገፆች ይጨምሩ</a>"
+
+#: djangopeople/templates/profile.html:123
+#, python-format
+msgid "People near %(name)s"
+msgstr "%(name)s አቅራቢያ ያሉ ሰዎች"
+
+#: djangopeople/templates/profile.html:130
+#, python-format
+msgid "%(counter)s mile away"
+msgid_plural "%( counter)s miles away"
+msgstr[0] "%(counter)s በአንድ ማይል ርቀት"
+msgstr[1] "%( counter)s በማይሎች ርቀት"
+
+#: djangopeople/templates/recent.html:3 djangopeople/templates/recent.html:9
+msgid "Recent people"
+msgstr "በቅርቡ የነበሩ ሰዎች"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#, python-format
+msgid "Search: %(q)s"
+msgstr "ፈልግ: %(q)s"
+
+#: djangopeople/templates/search.html:3 djangopeople/templates/search.html:9
+#: djangopeople/templates/search.html:12
+msgid "Search"
+msgstr "ፈልግ"
+
+#: djangopeople/templates/search.html:10
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s ውጤት"
+msgstr[1] "%(counter)s ውጤቶች"
+
+#: djangopeople/templates/search.html:11
+msgid "Terms must be three or more characters"
+msgstr "ተርሞቹ ሶስትና ከዛ በላይ ፊደሎች መሆን አለባቸው"
+
+#: djangopeople/templates/search.html:13
+msgid "This tool searches by username, first name and last name."
+msgstr "ይህ ቱል የሚፈልገው መለያስምን፣ የእርስዎን ስምና የአባት ስምን በመጠቀም ነው::"
+
+#: djangopeople/templates/search.html:27
+msgid "No users found."
+msgstr "ምንም ተጠቃሚ የለም::"
+
+#: djangopeople/templates/signup.html:4
+msgid "Sign up"
+msgstr "ተመዝገብ"
+
+#: djangopeople/templates/signup.html:15
+msgid "Sign up as a Django Person"
+msgstr "የጃንጎ ሰው ለመሆን ተመዝገብ"
+
+#: djangopeople/templates/signup.html:21
+#, python-format
+msgid ""
+"Got an <strong class=\"openid\">OpenID</strong>? <a "
+"href=\"%(openid_url)s\">Sign up with your OpenID now!</a>"
+msgstr ""
+"<strong class=\"openid\">ኦፕንአይዲ</strong> አለዎት? <a "
+"href=\"%(openid_url)s\">በኦፕንአይዲዎ አሁኑኑ ይመዝገቡ!</a>"
+
+#: djangopeople/templates/signup.html:23
+#, python-format
+msgid ""
+"Your new account will be associated with with your OpenID: <strong "
+"class=\"openid\">%(openid)s</strong> (<a "
+"href=\"%(openid_signout)s?next=%(signup_url)s\">don't associate</a>)"
+msgstr ""
+"አዲሱ አካውንትዎ ከኦፕንአይዲዎ ጋራ ይገናኛል: <strong "
+"class=\"openid\">%(openid)s</strong> (<a "
+"href=\"%(openid_signout)s?next=%(signup_url)s\">አታገናኝ</a>)"
+
+#: djangopeople/templates/signup.html:26
+msgid "1. Tell us who you are"
+msgstr "1. ማን እንደሆኑ ይንገሩን"
+
+#: djangopeople/templates/signup.html:56
+msgid "2. Tell us where you live"
+msgstr "2. የት እንደሚኖሩ ይንገሩን"
+
+#: djangopeople/templates/signup.html:60
+msgid ""
+"Latitude and longitude are missing. Please use the map to provide your "
+"location."
+msgstr ""
+"ላቲቲውድና ሎንግቲውድ ጎድለዋል:: እባክዎን በካርታው ላይ ቦታዎን ይጠቁሙ::"
+
+#: djangopeople/templates/signup.html:90
+msgid "3. And a bit about you …"
+msgstr "3. ትንሽ ስለ እርስዎ ..."
+
+#: djangopeople/templates/signup.html:123
+msgid "4. Your privacy settings"
+msgstr "4. የእርስዎን ፕራይቬሲ ሴቲንጎች"
+
+#: djangopeople/templates/signup.html:139
+msgid "5. Your skills and interests"
+msgstr "5. የእርስዎን ክህሎቶችና ማወቅ የሚፈልጓቸው ነገሮች"
+
+#: djangopeople/templates/signup.html:141
+msgid ""
+"Tag yourself with your particular skills and interests, e.g. postgresql, "
+"nginx, css. Separate them with commas; spaces are allowed."
+msgstr ""
+"ባለዎት ክህሎቶችና ማወቅ በሚፈልጓቸው ነገሮች ለምሳሌ postgresql, nginx, css ራስዎን ለይተው "
+"ምልክት ይስጡ:: ኮማዎችና ክፍተቶችን በመጠቀም ይለያዩ::"
+
+#: djangopeople/templates/signup.html:150
+msgid "Sign me up"
+msgstr "መዝግበኝ"
+
+#: djangopeople/templates/skill.html:8
+#, python-format
+msgid "%(counter)s Django Person mention this skill"
+msgid_plural "%( counter)s Django People mention this skill"
+msgstr[0] "%(counter)s ጃንጎ ሰው ይህንን ክህሎት ጥቀስ"
+msgstr[1] "%(counter)s ጃንጎ ሰዎች ይህንን ክህሎት ጥቀሱ"
+
+#: djangopeople/templates/skills.html:4
+msgid "Skills"
+msgstr "ክህሎቶች"
+
+#: djangopeople/templates/password_reset/recovery_done.html:3
+#: djangopeople/templates/password_reset/recovery_done.html:5
+msgid "New password set"
+msgstr "አዲስ የይለፍቃል(ፓስወርድ) ተሞልቷል"
+
+#: djangopeople/templates/password_reset/recovery_done.html:9
+#, python-format
+msgid ""
+"Your password has successfully been reset. You can use it right now on the "
+"<a href=\"%(login_url)s\">login page</a>."
+msgstr ""
+"የይለፍቃልዎ(ፓስወርድ) በተሳካ ሁኔታ ተቀይሯል:: <a href=\"%(login_url)s\">መግቢያ ገፅ</a> "
+"በመጠቀም አሁኑኑ ይጠቀሙበት::"
+
+#: djangopeople/templates/password_reset/recovery_form.html:3
+#: djangopeople/templates/password_reset/recovery_form.html:5
+#: djangopeople/templates/password_reset/reset.html:3
+#: djangopeople/templates/password_reset/reset.html:5
+msgid "Recover your account"
+msgstr "አካውንትዎን ያድኑ"
+
+#: djangopeople/templates/password_reset/recovery_form.html:9
+msgid ""
+"Enter your username and we'll send an account recovery link to the e-mail "
+"address associated with your account."
+msgstr ""
+"መለያስም ይክተቱና እኛ አካውንትዎን ማዳኛ ሊንክ ከአካውንትዎ ጋራ በተገናኘው ኢ፡ሜል በኩል እንልካለን::"
+
+#: djangopeople/templates/password_reset/recovery_form.html:13
+msgid "Recover account"
+msgstr "አካውንት አድን"
+
+#: djangopeople/templates/password_reset/recovery_form.html:17
+#, python-format
+msgid ""
+"An email has just been sent to <strong>%(email)s</strong>. Use the link in "
+"it to set a new password."
+msgstr ""
+"አንድ ኢ፡ሜል ለ<strong>%(email)s</strong> አሁን ተልኳል:: ውስጡ ያለውን ሊንክ በመጠቀም አዲስ "
+"የይለፍቃል(ፓስወርድ) ማስቀየር ይችላሉ::"
+
+#: djangopeople/templates/password_reset/reset.html:9
+#, python-format
+msgid ""
+"Sorry, this password reset link is invalid. You can still <a "
+"href=\"%(recovery_url)s\">request a new one</a>."
+msgstr ""
+"ይቅርታ ይህ የይለፍቃል(ፓስወርድ) መቀየሪያ ሊንክ አያገለግልም:: ግን አሁንም <a "
+"href=\"%(recovery_url)s\">አዲስ ጠይቅ</a> ማለት ይችላሉ::"
+
+#: djangopeople/templates/password_reset/reset.html:11
+#, python-format
+msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
+msgstr "ሰላም <strong>%(username)s</strong> እባክዎን አዲስ የይለፍቃል(ፓስወርድ) ይምረጡ::"
+
+#: djangopeople/templates/password_reset/reset.html:14
+msgid "Set new password"
+msgstr "አዲስ የይለፍቃል(ፓስወርድ) ያስገቡ"
